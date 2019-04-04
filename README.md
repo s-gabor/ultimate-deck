@@ -1,7 +1,5 @@
 # Deck
 
-[![Build Status](https://github.com/s-gabor/ultimate-deck.git)](https://github.com/s-gabor/ultimate-deck.git)
-
 `Deck` is a basic JavaScript implementation of a deck of 52 cards. An interface is provided to draw and shuffle cards within the deck.
 
 ## Installation
@@ -9,6 +7,10 @@
 Install with NPM: `npm install ultimate-deck`
 
 ## Creating & Using a Deck
+
+### Import the Deck
+
+`const { Deck } = require('ultimate-deck');`
 
 ### Configure the deck
 
@@ -24,7 +26,7 @@ myDeck.shuffle();
 
 ### Draw Cards from the Deck
 
-Remove the card from the top of the deck and return it as an object having the keys "rank" and "suit":
+Remove the card from the top of the deck and return it as an object having the keys "rank" and "suit" and add it back at the bottom of the deck:
 ```js
 // Draw a single card
 const drawnCard = myDeck.draw();
