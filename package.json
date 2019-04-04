@@ -1,0 +1,24 @@
+{
+  "name": "ultimate-deck",
+  "version": "1.0.0",
+  "description": "A JavaScript implementation of a deck of 52 cards with a simple and intuitive API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s-gabor/ultimate-deck.git"
+  },
+  "keywords": [
+    "npm",
+    "deck",
+    "cards"
+  ],
+  "author": "s-gabor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/s-gabor/ultimate-deck/issues"
+  },
+  "homepage": "https://github.com/s-gabor/ultimate-deck#readme"
+}
