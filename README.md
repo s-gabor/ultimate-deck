@@ -24,7 +24,7 @@ myDeck.shuffle();
 
 ### Draw Cards from the Deck
 
-Remove cards from the deck (and return them as an object or array) using any of the draw methods:
+Remove the card from the top of the deck and return it as an object having the keys "rank" and "suit":
 ```js
 // Draw a single card
 const drawnCard = myDeck.draw();
