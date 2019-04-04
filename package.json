@@ -1,6 +1,6 @@
 {
   "name": "ultimate-deck",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A JavaScript implementation of a deck of 52 cards with a simple and intuitive API",
   "main": "index.js",
   "scripts": {
