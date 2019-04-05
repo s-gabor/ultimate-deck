@@ -10,7 +10,9 @@ Install with NPM: `npm install ultimate-deck`
 
 ### Import the Deck
 
-`const { Deck } = require('ultimate-deck');`
+```js
+const { Deck } = require('ultimate-deck');
+```
 
 ### Configure the deck
 
@@ -26,8 +28,13 @@ myDeck.shuffle();
 
 ### Draw Cards from the Deck
 
-Remove the card from the top of the deck and return it as an object having the keys "rank" and "suit" and add it back at the bottom of the deck:
+Remove the card from the top of the deck, return it as an object having the keys "rank", "suit", "value" and "stringfy" and add it back at the bottom of the deck:
 ```js
 // Draw a single card
 const drawnCard = myDeck.draw();
+```
+
+```js
+// Get the string representation of the card
+drawnCard.stringfy;
 ```
